@@ -1,0 +1,38 @@
+.searchbar {
+  
+  padding: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(163, 134, 190);
+  border-radius: 20px;
+}
+
+.inputSearch {
+  border-radius: 3px;
+  background-color: cadetblue;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.btnSearch {
+  background-color: cadetblue;
+  color: white;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  
+}
+
+.navbar {
+  border: 1px solid red;
+  display: flex;
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 5px;
+}
+

@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  margin-top: 30px;
+  border-radius: 10px 10px 0 0;
+  background-color: aquamarine;
+}
+
+.close {
+  margin-top: 5px;
+  
+}
+
+.img {
+  background-size: cover;
+  
+}

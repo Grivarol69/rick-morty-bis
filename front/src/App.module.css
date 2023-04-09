@@ -1,0 +1,15 @@
+.background {
+  text-align: center;
+  background-image: url("./img/milky-way.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.searchbar {
+  display: none;
+}

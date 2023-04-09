@@ -1,0 +1,115 @@
+/* * {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "CustomFont";
+} */
+
+@font-face {
+  font-family: "CustomFont";
+  src: url(../../fonts/RolexLight.woff2);
+}
+
+.page {
+  height: 100hv;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  font-family: "CustomFont";
+  
+}
+
+.titulo {
+  color: black;
+}
+
+.cover {
+  margin-top: 3em;
+  /* background-color: white; */
+  background-color: rgb(163, 134, 190);
+  width: 30em;
+  height: 35em;
+  position: relative;
+  border-radius: 1em;
+  box-shadow: 0 0.188em 1.550em rgb(100,156,156);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.altLogin {
+  
+  width: 80%; /* Toma el ancho de un 80% de la pantalla */
+  height: 3em; /*Le da el alto de la caja */
+  display: flex;
+  justify-content: space-around;
+}
+
+.altLogin div { /* para los div dentro del altLogin */
+  
+  width: 45%;
+  height: 90%; 
+  border-radius: 0.25em;
+  background-color: black;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.google{
+  background-image: url('../../icons/google.png');
+}
+
+.facebook{
+  background-image: url('../../icons/facebook.png');
+}
+
+.inputLogin {
+  border: none;
+  background-color: rgb(229, 226, 226);
+  height: 1em;
+  width: 80%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 2em;
+}
+
+.inputLogin:focus {
+  outline-color: rgb(32, 177, 255);
+
+}
+
+.btnLogin {
+  width: 40%;
+  height: 3em;
+  /* background-color: rgb(32, 177, 255); */
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.btnLogin:hover {
+  transform: scale(1.25);
+}
+
+.text {
+  position: relative;
+  bottom: -2em;
+}
+
+.spanError {
+  font-size: smaller;
+  background-color: brown;
+  color: white;
+}
